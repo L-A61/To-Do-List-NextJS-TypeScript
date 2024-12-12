@@ -1,14 +1,10 @@
-import { KitchnProvider } from "kitchn";
 import ToDoList from "./ToDoList";
+import { KitchnProvider } from "kitchn";
 
-import "kitchn/fonts.css";
-
-const App = () => {
+export default function Home() {
   return (
     <KitchnProvider>
       <ToDoList/>
     </KitchnProvider>
   );
-};
-
-export default App;
+}
